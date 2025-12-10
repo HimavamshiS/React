@@ -1,0 +1,64 @@
+img {
+  width: 300px;
+}
+#navbar,
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.SwiggyComponentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child {
+  width: 33.3%;
+  height: auto;
+}
+.shimmerUiContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(202, 193, 193);
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+}
+.shimmerUiChild {
+  width: 30%;
+  background-color: rgb(202, 216, 216);
+  margin: 20px;
+}
+h1 {
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide extra text */
+  text-overflow: ellipsis; /* show ... */
+  width: 400px;
+}
+.btnContainer {
+  padding: 20px;
+  width: 500px;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.navimg.aboutus {
+  height: 60px;
+  width: 94px;
+}
+.navimg.navswiggylogo {
+  height: 60px;
+  width: 94px;
+}
+
+#login {
+  height: 60px;
+  width: 94px;
+}
